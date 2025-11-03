@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show More Micro Interaction</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="button-group" id="buttonGroup">
+      <button class="action-btn">Save</button>
+      <button class="action-btn">Copy</button>
+      <button class="action-btn hidden-btn">Share</button>
+      <button class="action-btn hidden-btn">Delete</button>
+      <button class="action-btn more-btn" id="moreBtn">
+        <svg
+          class="dots-icon"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="white"
+        >
+          <circle cx="6" cy="12" r="2" />
+          <circle cx="12" cy="12" r="2" />
+          <circle cx="18" cy="12" r="2" />
+        </svg>
+        <svg
+          class="cross-icon"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="white"
+          stroke-width="2.5"
+          stroke-linecap="round"
+        >
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
